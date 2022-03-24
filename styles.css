@@ -13,5 +13,31 @@ html {
 
 p {
   font-family: "Segoe UI";
+  color: black;
   font-size: small;
+}
+
+header {
+  background-color: white;
+  position: relative;
+  padding: 1rem;
+}
+
+nav a {
+  color: black;
+  
+
+}
+
+nav ul{
+  list-style-type: none;
+  position: absolute;
+  top: 0.7rem;
+  right: 1rem;
+
+}
+
+nav li{
+  display: inline;
+  margin-right: 0.5rem;
 }
