@@ -6,6 +6,46 @@
   box-sizing: inherit;
 }
 
+header {
+  background-color: white;
+  position: relative;
+  padding: 1rem;
+  z-index: 1;
+  height: 10rem;
+}
+
+nav a {
+  color: black;
+  text-decoration: underline;
+}
+
+nav ul {
+  list-style-type: none;
+  position: absolute;
+  top: 0.7rem;
+  left: 1rem;
+}
+
+nav li {
+  display: inline;
+  margin-right: 0.4rem;
+}
+
+nav img {
+  height: 5vh;
+}
+
+.homelanding {
+  height: 54vh;
+  background-color: black;
+  background-image: linear-gradient( 90deg, black 3%, rgba(0, 0, 0, 0), black 97% ), url(./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
+  object-fit: cover;
+  position: relative;
+  background-size: 1250px;
+  background-position: center;
+  back
+}
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -15,29 +55,4 @@ p {
   font-family: "Segoe UI";
   color: black;
   font-size: small;
-}
-
-header {
-  background-color: white;
-  position: relative;
-  padding: 1rem;
-}
-
-nav a {
-  color: black;
-  
-
-}
-
-nav ul{
-  list-style-type: none;
-  position: absolute;
-  top: 0.7rem;
-  right: 1rem;
-
-}
-
-nav li{
-  display: inline;
-  margin-right: 0.5rem;
 }
